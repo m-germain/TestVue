@@ -21,7 +21,7 @@
       </div>
       <br />
     </div-->
-    <div class="header">
+    <div class="header ">
       <div class="columns is-multiline is-mobile">
         <div class="column is-one-quarter">
           <p class="title is-5  has-text-left">Header</p>
