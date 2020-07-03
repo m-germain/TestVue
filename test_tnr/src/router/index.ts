@@ -14,8 +14,8 @@ const routes: Array<RouteConfig> = [
   },
   {
     path: "/login",
-    name: "Login",
-    component: Login,
+    name: "Home",
+    component: Home,
     meta: {
       public: true,  // Allow access to even if not logged in
       onlyWhenLoggedOut: true
