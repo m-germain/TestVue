@@ -1,4 +1,28 @@
 <template>
+  <div class="container column is-10">
+    <div class="section">
+      <div class="card">
+        <div class="card-header">
+          <p class="card-header-title">Header</p>
+        </div>
+        <div class="card-content">
+          <div class="content">Content</div>
+        </div>
+      </div>
+      <br />
+
+      <div class="card is-hidden1">
+        <div class="card-header">
+          <p class="card-header-title">Header</p>
+        </div>
+        <div class="card-content">
+          <div class="content">Content</div>
+        </div>
+      </div>
+      <br />
+      
+  </div>
+
   <div class="columns is-multiline is-mobile">
     <div v-for="item in items" :key="item" class="column is-one-quarter">
       <div class="card">
@@ -34,7 +58,7 @@ import { Component, Prop, Vue } from "vue-property-decorator";
 @Component
 export default class HelloWorld extends Vue {
   @Prop() private msg!: string;
-  public items = [1,2,3,4,5,6,7];  
+  public items = [1, 2, 3, 4, 5, 6, 7];
 }
 </script>
 

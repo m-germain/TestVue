@@ -62,7 +62,7 @@ export default class Login extends Vue {
 
   handleLogin() {
     if (this.username != "" && this.password != "") {
-      this.login({ username: this.username, password: this.password });
+      //this.login({ username: this.username, password: this.password });
       this.password = "";
     }
   }

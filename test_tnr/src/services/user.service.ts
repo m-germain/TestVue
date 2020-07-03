@@ -43,7 +43,7 @@ const UserService = {
             
             // NOTE: We haven't covered this yet in our ApiService 
             //       but don't worry about this just yet - I'll come back to it later
-            ApiService.mount401Interceptor();
+            // ApiService.mount401Interceptor();
 
             return response.data.access_token
         } catch (error) {
@@ -97,7 +97,7 @@ const UserService = {
         ApiService.removeHeader()
         
         // NOTE: Again, we'll cover the 401 Interceptor a bit later. 
-        ApiService.unmount401Interceptor()
+        // ApiService.unmount401Interceptor()
     }
 }
 
